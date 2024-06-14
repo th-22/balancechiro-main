@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: #fafafa;
   margin: 0;
 }
 
@@ -120,13 +121,26 @@ p {
   line-height: 1.5em;
 }
 
+li {
+  font-size: 1.3em;
+}
+
+ul {
+  margin-left: 1em;
+}
+.links {
+  flex-direction: row;
+  width: 31.25em;
+  justify-content: space-around;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 63em;
   height: 22em;
   position: relative;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 3em;
 }
 

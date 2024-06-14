@@ -102,7 +102,7 @@ h2 {
 .services {
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50em;
+  width: 60em;
 }
 
 .services h2 {
@@ -113,21 +113,28 @@ h2 {
   margin-bottom: 0;
 }
 
-.services-group {
+.service-group {
   flex-direction: row;
+  padding: 1em;
 }
+
+.service-name {
+  margin: 2em;
+}
+
+.service-name h2 {
+  margin: 1em;
+}
+
 p {
   font-size: 1.3em;
   line-height: 1.5em;
 }
 
 li {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
-ul {
-  margin-left: 1em;
-}
 .links {
   flex-direction: row;
   width: 31.25em;
